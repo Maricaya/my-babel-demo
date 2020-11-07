@@ -1,0 +1,29 @@
+{
+  "name": "my-webpack-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "ts:chrome": "node -r ts-node/register --inspect-brk",
+    "ts": "node -r ts-node/register"
+  },
+  "dependencies": {
+    "@babel/core": "7.12.3",
+    "@babel/generator": "7.12.5",
+    "@babel/parser": "7.12.5",
+    "@babel/preset-env": "7.12.1",
+    "@babel/traverse": "7.12.5",
+    "@types/babel__traverse": "7.0.15",
+    "ts-node": "9.0.0",
+    "typescript": "4.0.5"
+  },
+  "devDependencies": {
+    "@types/babel__core": "7.1.12",
+    "@types/babel__generator": "7.6.2",
+    "@types/babel__preset-env": "7.9.1",
+    "@types/node": "14.14.6"
+  }
+}
